@@ -1,0 +1,17 @@
+.link {
+    margin-bottom: 50px;
+	&__title { 
+        margin-bottom: 10px;
+    }
+	&__list { 
+        list-style: none;
+        padding: 0;
+    }
+	&__text { 
+        color: $black-gray;
+        margin-bottom: 8px;
+    }
+    &__text-color {
+        color: $black;
+    }
+}

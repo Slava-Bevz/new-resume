@@ -1,0 +1,16 @@
+.user {
+	&__skills { 
+        margin-bottom: 20px;
+    }
+	&__name { 
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+	&__info { 
+        font-size: 14px;
+        color: $black-gray;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+}

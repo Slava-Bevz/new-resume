@@ -1,0 +1,191 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0; }
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal; }
+
+.wrapper {
+  max-width: 1200px;
+  min-width: 375px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.skills {
+  padding-top: 40px;
+  max-width: 370px;
+  background-color: #1E2939; }
+  .skills__img {
+    width: 100%;
+    max-width: 370px;
+    height: auto; }
+  .skills__info {
+    padding: 40px; }
+  .skills__contacts {
+    margin-bottom: 45px; }
+  .skills__info-tel {
+    margin-bottom: 5px; }
+  .skills__category {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF; }
+  .skills__mail-tel {
+    color: #8E949C;
+    margin-left: 10px;
+    text-decoration: none; }
+    .skills__mail-tel:hover {
+      color: #FB6D3A;
+      text-decoration: underline; }
+  .skills__box-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px; }
+  .skills__tech-skills {
+    margin-bottom: 45px; }
+  .skills__title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 8px; }
+  .skills__span {
+    color: #FFFFFF;
+    font-size: 14px; }
+  .skills__list {
+    padding: 0 0 0 20px; }
+  .skills__text {
+    margin-bottom: 7px;
+    color: #FB6D3A; }
+
+@media (max-width: 767px) {
+  .skills {
+    max-width: 767px;
+    width: 100%; }
+    .skills__title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .skills__box-contact {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .skills__list {
+      padding: 0;
+      padding-left: auto;
+      list-style-position: inside;
+      text-align: center; }
+    .skills__img {
+      width: 100%;
+      max-width: 767px; } }
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media (max-width: 767px) {
+  .box {
+    display: block; } }
+
+.user__skills {
+  margin-bottom: 20px; }
+
+.user__name {
+  font-size: 45px;
+  margin-bottom: 25px; }
+
+.user__info {
+  font-size: 14px;
+  color: #595959;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 40px; }
+
+.link {
+  margin-bottom: 50px; }
+  .link__title {
+    margin-bottom: 10px; }
+  .link__list {
+    list-style: none;
+    padding: 0; }
+  .link__text {
+    color: #595959;
+    margin-bottom: 8px; }
+  .link__text-color {
+    color: #000000; }
+
+.exprience {
+  margin-bottom: 25px;
+  color: #000000; }
+  .exprience__main-title {
+    margin-bottom: 12px; }
+  .exprience__title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .exprience__contrast-title {
+    font-weight: bold;
+    color: #FB6D3A; }
+  .exprience__date {
+    color: #A8A8A8;
+    font-size: 12px; }
+  .exprience__list {
+    padding: 15px; }
+  .exprience__text-li {
+    font-size: 14px;
+    color: #595959;
+    margin-bottom: 5px; }
+  .exprience__position {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0; }
+
+.users-box {
+  padding: 100px 75px 0 75px; }
+
+@media (max-width: 767px) {
+  .users-box {
+    padding: 30px 15px; } }
+
+/*# sourceMappingURL=style.css.map */

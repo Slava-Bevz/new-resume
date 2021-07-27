@@ -1,0 +1,8 @@
+.box {
+    display: flex;
+}
+@media (max-width: 767px) {
+    .box {
+        display: block;
+    }
+}

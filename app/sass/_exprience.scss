@@ -1,0 +1,33 @@
+.exprience {
+    margin-bottom: 25px;
+    color: $black;
+	&__main-title { 
+        margin-bottom: 12px;
+    }
+	&__title { 
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+	&__contrast-title {
+        font-weight: bold; 
+        color: $red;
+    }
+	&__date { 
+        color: $gray-white;
+        font-size: 12px;
+    }
+	&__list { 
+        padding: 15px;
+    }
+	&__text-li { 
+        font-size: 14px;
+        color: $black-gray;
+        margin-bottom: 5px;
+    }
+	&__position { 
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px 0;
+    }
+}
